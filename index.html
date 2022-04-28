@@ -4,7 +4,7 @@
 <script>
 function ifUp(url,onUp,onDown) {
 	// make random string
-	var RANDOM_DIGITS = 7; // this is sufficient. Don't do more than ~12.
+	var RANDOM_DIGITS = 4; // this is sufficient. Don't do more than ~12.
 	var pow = Math.pow(10,RANDOM_DIGITS);
 	var randStr = String(Math.floor(Math.random()*pow)+pow).substr(1);
 	// create and load image
