@@ -45,12 +45,12 @@
 <script>
 	(function m(){	
 
-		let time=5;//超时时间 单位秒
+		let time=8;//超时时间 单位秒
 
 		let link=document.createElement("link");
 		link.setAttribute("rel", "stylesheet");
 		link.setAttribute("type", "text/css");
-		link.setAttribute("href","https://xcbt10.xyz/static/default.css?"+Math.random());
+		link.setAttribute("href","https://xcbt11.xyz/static/default.css?"+Math.random());
 		let node=document.getElementsByTagName("head")[0];		
 		node.appendChild(link);		
 		let j=0;
@@ -61,13 +61,13 @@
 			console.log(dp);
 			if(dp=="none"){
 				clearInterval(s);
-				window.location.href="https://xcbt10.xyz";
+				window.location.href="https://xcbt11.xyz";
 			}
 			let t=j*100/1000;
 			console.log(t);
 			if(t>=time){
 				clearInterval(s);
-				window.location.href="https://xcbt11.xyz";
+				window.location.href="https://xcbt12.xyz";
 			}
 			j++;
 		},100);
