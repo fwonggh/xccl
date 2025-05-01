@@ -1,1 +1,21 @@
-html,body{padding:0;margin:0;width:100%;height:100%;-moz-min-width:320px;-ms-min-width:320px;-o-min-width:320px;-webkit-min-width:320px;min-width:320px;font-family:Microsoft Yahei,arial;}*{margin:0;word-wrap:break-word;-moz-word-break:normal;-o-word-break:normal;word-break:normal;}#wrapper{min-height:100%;height:auto !important;height:100%;margin:0 auto -40px;}#wrapper2{min-height:100%;height:auto !important;height:100%;margin:0 auto -40px;}
+* {
+    margin: 0;
+    word-wrap: break-word;
+    -moz-word-break: normal;
+    -o-word-break: normal;
+    word-break: normal;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px;
+}
+
+#wrapper2 {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px;
+}
