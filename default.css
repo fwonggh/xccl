@@ -1,9 +1,4 @@
-/* List View - fix trash icon inside table column */
-.model-list form.icon {
-    display: inline;
-}
-
-.model-list form.icon button {
+html,body {
     border: none;
     background: transparent;
     text-decoration: none;
