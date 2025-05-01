@@ -1,7 +1,12 @@
-        body {
-            background-color: #f4f4f4;
-            color: #333;
-            font-family: 'Courier New', monospace;
-            margin: 0;
-            padding: 2em;
-        }
+/* List View - fix trash icon inside table column */
+.model-list form.icon {
+    display: inline;
+}
+
+.model-list form.icon button {
+    border: none;
+    background: transparent;
+    text-decoration: none;
+    padding: 0;
+    line-height: normal;
+}
